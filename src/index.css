@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+.nav-bar ul li{
+  display: inline-block;
+  padding: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+.main{
+  text-align: center;
+}
+
+.logo{
+  color: red;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: italic;
+}
+
+/* #img{
+  width: 600px;
+  position: absolute;
+  right: 100px;
+  border-radius: 50%;
+} */
+
+.description{
+  margin: 14px 16px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#descr{
+  font-weight: 400;
+  font-size: 1em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+  width: 200px;
+  margin: 14px 16px;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 8px 0;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-family: 'Courier New', Courier, monospace;
+}
+#span{
+  color: #000;
+}
+
+
+#portfoglio-btn{
+  background-color: red;
+  cursor: pointer;
+}
+
